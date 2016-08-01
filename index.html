@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html class="js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths is-scrolled">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+
+	<title>Netscape-format cookies file generator</title>
+
+	<link rel="stylesheet" type="text/css" href="./src/normalize.css">
+	<link rel="stylesheet" type="text/css" href="./src/jquery.qtip.min.css">
+	<link rel="stylesheet" type="text/css" href="./src/prism.css">
+	<link rel="stylesheet" type="text/css" href="./src/prism-line-numbers.css">
+	<link rel="stylesheet" type="text/css" href="./src/glyphicons.min.css">
+
+	<link rel="stylesheet" type="text/css" href="./src/main.min.css">
+
+	<script type="text/javascript" async="" src="./src/ga.js"></script><script type="text/javascript" src="./src/modernizr.js"></script>
+	<script type="text/javascript" src="./src/jquery.min.js"></script>
+	<script type="text/javascript" src="./src/jquery.qtip.min.js"></script>
+	<script type="text/javascript" src="./src/prism.js"></script>
+	<script type="text/javascript" src="./src/prism-line-numbers.min.js"></script>
+
+	<script type="text/javascript" src="./src/util.coffee.js"></script>
+	<script type="text/javascript" src="./src/things.coffee.js"></script>
+	<script type="text/javascript" src="./src/cookies.coffee.js"></script>
+	
+
+</head>
+  <body>
+
+  <div class="content-container">
+	<div class="content page-cookies">
+	  <h1 class="page-title">Netscape-format cookies file generator</h1>
+
+<p>Converts <code>document.cookie</code> into a Netscape-format cookies file which is (among other things) suitable for use with <a href="http://www.gnu.org/software/wget">wget</a>, e.g:</p>
+
+<pre>wget --load-cookies cookies.txt http://example.org</pre>
+
+<p><strong>Note</strong>: line breaks and other whitespace in the input don't matter.</p>
+
+<table class="form">
+  <tbody>
+	<tr>
+	  <td><label for="domain">Domain</label></td>
+	  <td><input type="text" id="domain" value="example.org"></td>
+	</tr>
+
+	<tr>
+	  <td><label for="input">Input</label></td>
+	  <td><textarea id="input" rows="10">remember_me=true; APISID=DijdSAOAjgwijnhFMndsjiejfdSDNSgfsikasASIfgijsowITITeoknsd; static_files=iy1aBf1JhQR</textarea></td>
+	</tr>
+
+	<tr>
+	  <td></td>
+	  <td><button id="generate">Generate</button></td>
+	</tr>
+
+	<tr>
+	  <td><label class="control-label" for="output">Output</label></td>
+	  <td><textarea id="output" rows="10" wrap="off"></textarea></td>
+	</tr>
+  </tbody>
+</table>
+
+</div>
+
+
+
+  
+
+
+
+</body></html>

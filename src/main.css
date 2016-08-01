@@ -1,0 +1,48 @@
+*{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box}
+body,input,button,label,select,textarea{font-family:"Noto Sans";font-size:13px}
+body{background-color:#e5e5e5;color:#333}
+a{text-decoration:none;color:#33f}
+i.glyphicon-stackoverflow{background-image:url("/img/so.png");background-position:0px 0px}
+h1,h2,h3{font-weight:700}
+h1{font-size:18px;margin:.5em 0}
+h2{font-size:14px}
+h3{font-size:12px}
+hr{border:1px solid #aaa;margin:1em 20%;border-bottom:0px}
+pre,pre>code{white-space:pre;border:0;padding:0}
+pre{border:0px;border-radius:.5em;padding:.5em;overflow:auto;word-wrap:normal}
+pre,code{border-radius:.5em;background-color:#fafafa !important;font-family:Consolas, monospace}
+code{color:#333;padding:2px 4px;white-space:nowrap}
+blockquote{border:0;margin:0;padding:.5em;border-radius:.5em;background-color:#fafafa}blockquote p{font-size:1em;margin:0}
+.cf:before,.cf:after{content:" ";display:table}
+.cf:after{clear:both}
+.cf{*zoom:1}
+.tooltip{font-size:1em !important;padding:.25em}
+.form{width:100%}.form td{padding:.25em}.form td:nth-child(2) input,.form td:nth-child(2) textarea{width:100%;display:block}
+.nav-container{-moz-transition:all .3s;-webkit-transition:all .3s;-o-transition:all .3s;transition:all .3s;position:fixed;z-index:1;background-color:#ccc;width:100%}.is-scrolled .nav-container{-moz-transition:all .3s;-webkit-transition:all .3s;-o-transition:all .3s;transition:all .3s;-moz-box-shadow:0 5px 10px #888;-webkit-box-shadow:0 5px 10px #888;box-shadow:0 5px 10px #888;margin-top:0}
+.nav{max-width:45em;margin:0 auto}.nav ul{margin:0;padding-left:0;list-style-type:none}.nav ul li{height:3em;display:inline-block;margin:0}
+.nav ul li:hover,.nav ul li.selected{background-color:#e5e5e5}
+.nav ul li.index{font-weight:bold;border-radius:0;background-color:black}
+.nav ul li.index a{color:#e5e5e5}
+.nav ul li a{padding:0 .5em;display:block;text-decoration:none;line-height:3em;font-size:1.1em}
+.nav ul li a:hover{text-decoration:none}
+.nav ul.nav-primary{float:left}
+.nav ul.nav-secondary{float:right}
+.content-container{max-width:45em;margin:0 auto;padding-top:3em}
+.content{padding:.5em .5em 1em}.content li,.content p,.content code{line-height:1.7em}
+.post h1{margin-bottom:0}.post h1 a{text-decoration:none;color:#333}
+.post .post-meta{font-style:italic}
+.post .post-content{margin-top:1em}.post .post-content a:visited{color:#009}
+.post .post-content a:hover{background-color:#33f;color:#e5e5e5}
+.post .post-content a:visited:hover{background-color:#009;color:#e5e5e5}
+.post .post-content hr{border-color:#bbb;margin-left:0;margin-right:0}
+.page-index .project{color:black;float:left;width:48%;padding:.5em;background-color:#eee;margin:1%;border-radius:1em}.page-index .project:hover{text-decoration:none;background-color:#ddd}
+.page-index .project .project-state{float:left;border-radius:10px;height:10px;width:10px;background-color:#bbb}
+.page-index .project .project-name{font-size:1.4em;text-align:center;margin-bottom:0.25em;margin-top:0.25em;font-weight:normal}
+.page-archive td:first-child{padding-right:1em}
+.page-archive tr.year:first-child h2{margin-top:0}
+.page-archive .day td:first-child{text-align:right}
+.page-cookies{}.page-cookies #input,.page-cookies #output{font-family:monospace}
+.page-cookies #output{white-space:pre;overflow:auto}
+@media only screen and (max-width:30em){.nav-container{position:static}.is-scrolled .nav-container{-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none} .content-container{padding-top:0} .page-index .project{clear:both;width:100%}}::selection{background-color:#33f;color:#e5e5e5}
+::-moz-selection{background-color:#33f;color:#e5e5e5}
+::-webkit-selection{background-color:#33f;color:#e5e5e5}
